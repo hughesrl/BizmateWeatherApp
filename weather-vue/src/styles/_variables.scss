@@ -1,0 +1,201 @@
+
+/*
+*
+|  Page Name       : _variables.scss
+|  Description     : scss created for global use variables
+|  Created by      : Invech Treasure Processing Corp. Team
+|  Date Created    : 2020
+|  Last Update by  : Invech Treasure Processing Corp. Team
+|  Last update     : July 3, 2020
+*  DO NOT TOUCH
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.5rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$base-font-size: 28px;
+$heading-scale: 8; // amount of px headings grow from h6 to h1
+$paragraph-font-size: 17px;
+
+
+
+
+
+
+// TYPHOGRAPHY
+$font-family-sans-serif: "Nanum Gothic", 굴림, 돋음, Dotum, Arial, Helvetica,
+    sans-serif;
+$font-gulim: "Gulim", sans-serif;
+$font-ssangmundong: "Ssangmundong", sans-serif;
+$font-size-base: 0.75rem;
+$line-height-base: 1.6;
+// BODY
+$body-bg: #24262c;
+// COLORS
+$malibu:#92cdf3;
+$visvis: #ffe88e;
+$yelloworange:#ffbc68;
+$lightergreen:#9cff73;
+$blackrussian: #24262c;
+$ebony: #2d3139;
+$brightgray: #5d6066;
+$mineralgreen: #5d6066;
+$ashgray: #5d6067;
+$tuna: #4c4d50;
+$steelgray: #3d4149;
+$steelgraylight: #5d6066;
+$lightred: linear-gradient(180deg, #f66f64 0%, #b92a1e 100%);
+$cyan: #b92a1e;
+$gray-ish: #8b8c8d;
+$gray: #3b3a40;
+$grey: #888888;
+$white: #ffffff;
+$inchworm: #e9be1c;
+$yellow: #ffcc00;
+$yellow1: #fcff00;
+$goldenpoppy: #e5c100;
+$gamboge: #f3c961;
+$tone: #30a430;
+$red: #d9483c;
+$mahogany: #d64036;
+$valencia: #e1574c;
+$flamingo: #ed594d;
+$flame: #f66f64;
+$cobalt: #3d79ad;
+$aqua: #00fffc;
+$txt: #d5c8ca;
+$quillgrey: #ccc4c2;
+$darkgrey: #aaaaaa;
+$geyser: #dce2e3;
+$grey40: #666666;
+$grey33: #545454;
+$grey20: #333333;
+$gainsboro: #dddddd;
+$bastille: #2d2d2f;
+$eclipse: #5d6066;
+$black: #000000;
+$dimGray: #646363;
+$blackMarlin: #3b3a3f;
+$blackcurrant: #252426;
+$mako: #505151;
+$blackrussian1: #1d1d1f;
+$haiti: #242326;
+$revolver: #363639;
+$comet: #606063;
+$shuttlegrey: #383e49;
+$zambezi: #5f5f5f;
+$charcoal: #464646;
+$jaguar: #222127;
+$matterhorn: #505050;
+$greysuit: #898b93;
+$nobel: #9f9999;
+$nobellight: #9f99994f;
+$maire: #2323219c;
+$trans: transparent;
+$smokey: #59585f;
+// GRADIENT
+$black5: rgba(0, 0, 0, 0.5);
+$lightredGradient: linear-gradient(180deg, #f66f64 0%, #b92a1e 100%);
+$lightredGradient1: linear-gradient(
+    180deg,
+    rgba(237, 89, 77, 1) 0%,
+    rgba(185, 42, 30, 1) 100%
+);
+$valenciaGradient: linear-gradient(
+    180deg,
+    rgba(237, 89, 77, 1) 0%,
+    rgba(185, 42, 30, 1) 100%
+);
+$orangeGradient1: rgb(222, 149, 46);
+$orangeGradient2: linear-gradient(
+    180deg,
+    rgba(222, 149, 46, 1) 0%,
+    rgba(215, 124, 45, 1) 36%,
+    rgba(207, 102, 44, 1) 100%
+);
+$blueGradient1: rgb(70, 161, 186);
+$blueGradient2: linear-gradient(
+    180deg,
+    rgba(70, 161, 186, 1) 0%,
+    rgba(48, 123, 166, 1) 36%,
+    rgba(28, 90, 142, 1) 100%
+);
+$whitegray: rgba(255, 255, 255, 0.2);
+$lightred: linear-gradient(180deg, #f66f64 0%, #b92a1e 100%);
+$flamingoGradient: linear-gradient(180deg, #ed594d 0%, #b92a1e 100%);
+$dimGrayGradient: linear-gradient(180deg, #686b71 0%, #373a40 100%);
+$grayGradient: linear-gradient(180deg, #7c808c 0%, #373a40 100%);
+$dimGrayGradientBorder: #686b71;
+$grayGradientBorder: #7c808c;
+$grayBorderBottom: #373a40;
+$steelblue: rgb(55, 125, 184);
+$steelblueGradient: linear-gradient(
+    180deg,
+    rgb(55, 125, 184) 0%,
+    rgba(32, 77, 121, 1) 100%
+);
+$pictonblue: rgb(80, 162, 230);
+$greyGradient: linear-gradient(180deg, #888888 0%, #303030 100%);
+$pictonblueGradient: linear-gradient(
+    180deg,
+    rgba(80, 162, 230, 1) 0%,
+    rgba(32, 77, 121, 1) 100%
+);
+$charcoalGradient: linear-gradient(180deg, #686b71 0%, #373a40 100%);
+$goldenpoppyGradient: linear-gradient(
+    180deg,
+    rgba(229, 193, 0, 1) 0%,
+    rgba(204, 163, 0, 1) 100%
+);
+$yellow1Gradient: linear-gradient(
+    180deg,
+    rgba(252, 255, 0, 1) 0%,
+    rgba(204, 163, 0, 1) 100%
+);
+$smokeyGradient: linear-gradient(
+    180deg,
+    rgba(89, 88, 95, 1) 0%,
+    rgba(59, 58, 63, 1) 100%
+);
+$yellowishShade: linear-gradient(180deg, #e5c100 0%, #cc8600 100%);
+$yellowishHover: linear-gradient(180deg, #fcff00 0%, #cca300 100%);
+// New Added Gradient
+$newYellowGradient: linear-gradient(180deg, #F2b138 0%, #d98b2b 100%);
+$newYellowHover: linear-gradient(180deg, #F2ec99 0%, #d98b2b 100%);
+
+$newOrangeGradient: linear-gradient(180deg, #e8b97f 0%, #d98b2b 100%);
+$newOrangeHover: linear-gradient(180deg, #efd0aa 0%, #d98b2b 100%);
+$orangeGradientBorder: #e8b97f;
+$orangeHoverBorder: #efd0aa;
+$orangeBorderBottom: #d98b2b;
+
+$newBlueGradient: linear-gradient(180deg, #0487d9 0%, #003e8c 100%);
+$newBlueHover: linear-gradient(180deg, #6093bf 0%, #003e8c 100%);
+$blueGradientBorder: #0487d9;
+$blueHoverBorder: #6093bf;
+$blueBorderBottom: #003e8c;
+
+
+// FONT SIZES
+$f12: 12px;
+$f11: 11px;
+$f10: 10px;

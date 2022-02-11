@@ -1,0 +1,13 @@
+/**
+ * define font-sizes with css custom properties.
+ * you can change the values of these properties in a media query
+*/
+
+:root {
+    --headings-size-h1: 28px;
+    --headings-size-h2: 22px;
+    @media #{map-get($display-breakpoints, 'lg-and-up')} {
+        --headings-size-h1: 32px;
+        --headings-size-h2: 26px;
+    }
+}
