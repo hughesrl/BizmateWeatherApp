@@ -11,13 +11,14 @@ To run this project
 1. cd <project_name>/
 2. composer install
 3. cp .env.example .env
-4. php artisan key:generate
-5. php artisan config:cache
-6. cd weather-vue/
-7. cp .env.example .env
-8. yarn or npm i
-9. yarn build or npm run build
-10. php artisan serve
+4. (open .env and add you OpenWeatherMap API_KEY in WEATHER_API_KEY)
+5. php artisan key:generate
+6. php artisan config:cache
+7. cd weather-vue/
+8. cp .env.example .env
+9. yarn or npm i
+10. yarn build or npm run build
+11. php artisan serve
 
 Now open the browser to http://127.0.0.1:8000/
 
